@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhithyan K V — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#about">Skip to content</a>
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="#hero" class="logo">Adhithyan K<span class="logo-dot">.</span> V<span class="logo-dot">.</span></a>
+    <label for="nav-toggle" class="nav-burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-blob blob-a" aria-hidden="true"></div>
+    <div class="hero-blob blob-b" aria-hidden="true"></div>
+  
+    <div class="hero-inner">
+      <!-- Left column: text -->
+      <div class="hero-content">
+        <h2 class="hero-greeting">Hello, I'm</h2>
+        <h1 class="hero-name">Adhithyan K V</h1>
+        <p class="hero-kicker">Computer Science &amp; Engineering</p>
+        <p class="hero-tagline">
+          I build clean, functional web applications with Python and Django —
+          currently sharpening my craft in full-stack development, databases, and
+          the fundamentals that hold it all together.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+  
+      <!-- Right column: photo -->
+      <div class="hero-photo">
+        <img src="MAI_f5e50dd6ffb6b3fc.png" alt="Adhithyan K V" class="circle-photo">
+      </div>
+    </div>
+  
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section"><span></span></a>
+  </section>
+  
+
+  <!-- ABOUT -->
+  <section class="section section-light" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">About</p>
+      <h2 class="section-title">A little about me</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a third-year Computer Science and Engineering student at Dr. N.G.P Institute
+          of Technology, Coimbatore, with a steady interest in full-stack development and
+          emerging technology. I like understanding how things work before I build with them —
+          whether that's tracing a bug to its root cause or reading through a database schema
+          before writing a single query. Outside of coursework, I enjoy picking up new tools
+          and languages, and I work well as part of a team.
+        </p>
+        <ul class="about-highlights">
+          <li><h3>Fundamentals first</h3><p>Strong foundation in programming logic and structured problem-solving.</p></li>
+          <li><h3>Fast to adapt</h3><p>Quick learner with active interest in full-stack and emerging technologies.</p></li>
+          <li><h3>Debug-minded</h3><p>Effective at tracing issues to their source; collaborative team member.</p></li>
+          <li><h3>Multilingual</h3><p>Comfortable working and communicating across multiple languages.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-dark" id="education">
+    <div class="section-inner">
+      <p class="eyebrow">Education</p>
+      <h2 class="section-title">Academic background</h2>
+      <div class="card-grid education-grid">
+        <article class="card edu-card">
+          <p class="edu-years">2024 – 2028</p>
+          <h3>Dr. N.G.P Institute of Technology</h3>
+          <p class="edu-degree">B.E. — Computer Science &amp; Engineering</p>
+          <p class="edu-place">Coimbatore</p>
+          <div class="edu-score"><span>CGPA</span><strong>8.51</strong></div>
+        </article>
+        <article class="card edu-card">
+          <p class="edu-years">2022 – 2024</p>
+          <h3>Bharathamatha Higher Secondary School</h3>
+          <p class="edu-degree">Higher Secondary Certificate (HSC)</p>
+          <p class="edu-place">Palakkad</p>
+          <div class="edu-score"><span>Score</span><strong>98.5%</strong></div>
+        </article>
+        <article class="card edu-card">
+          <p class="edu-years">2021 – 2022</p>
+          <h3>Bharathamatha Higher Secondary School</h3>
+          <p class="edu-degree">SSLC</p>
+          <p class="edu-place">Palakkad</p>
+          <div class="edu-score"><span>Score</span><strong>95%</strong></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-light" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Languages</h3><div class="chip-row"><span class="chip">Java</span><span class="chip">Python</span><span class="chip">C</span></div></div>
+        <div class="skill-card"><h3>Web</h3><div class="chip-row"><span class="chip">HTML5</span><span class="chip">CSS</span><span class="chip">Django</span></div></div>
+        <div class="skill-card"><h3>Database</h3><div class="chip-row"><span class="chip">PostgreSQL</span><span class="chip">SQL</span></div></div>
+        <div class="skill-card"><h3>Tools</h3><div class="chip-row"><span class="chip">VS Code</span><span class="chip">GitHub</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-dark" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">Projects</p>
+      <h2 class="section-title">Selected work</h2>
+      <div class="card-grid projects-grid">
+        <article class="card project-card">
+          <div class="project-card-top">
+            <h3>Django Blog Website</h3>
+            <div class="chip-row"><span class="chip chip-alt">Django</span><span class="chip chip-alt">PostgreSQL</span><span class="chip chip-alt">HTML/CSS</span></div>
+          </div>
+          <ul class="project-points">
+            <li>Developed a blog application supporting text, image, audio, and video posts.</li>
+            <li>Implemented full CRUD functionality with a responsive UI built in HTML and CSS.</li>
+            <li>Managed all database operations using PostgreSQL.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section section-light" id="certifications">
+    <div class="section-inner">
+      <p class="eyebrow">Certifications &amp; Participation</p>
+      <h2 class="section-title">Beyond the classroom</h2>
+      <div class="cert-grid">
+        <div class="cert-card"><p class="cert-year">2026</p><h3>NPTEL</h3><p>Cloud Computing</p></div>
+        <div class="cert-card"><p class="cert-year">2025</p><h3>UIT Hackathon</h3><p>Participant</p></div>
+        <div class="cert-card"><p class="cert-year">2025</p><h3>U&amp;ME Hackathon</h3><p>Participant</p></div>
+        <div class="cert-card"><p class="cert-year">2025</p><h3>Illuminate Workshop</h3><p>E-Cell, IIT Bombay</p></div>
+        <div class="cert-card"><p class="cert-year">2025</p><h3>National Creative Aptitude Test</h3><p>AIR 26</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="contact-lede">
+        Open to internships, collaborations, and full-stack opportunities.
+        Reach out through any of the channels below.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:adhithyankv05@gmail.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">adhithyankv05@gmail.com</span>
+        </a>
+        <a href="tel:+911234567890" class="contact-link">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 123 456 7890</span>
+        </a>
+        <a href="https://github.com/A-K-79" class="contact-link">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/A-K-79</span>
+        </a>
+        <!-- <a href="https://linkedin.com/in/yourhandle" class="contact-link">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">linkedin.com/in/yourhandle</span>
+        </a> -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>&copy; <span id="year">2026</span> Adhithyan K V · All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
